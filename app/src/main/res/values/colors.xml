@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFC51162</color>
+    <color name="colorPrimaryDark">#66FF7AB6</color>
+    <color name="colorAccent">#FFC51162</color>
+    <color name="itemDraggingColor">#FFD1D1</color>
+    <color name="counterItemButtonsColor">#E7E7E7</color>
+    <color name="dividerLineColor">#1F000000</color>
+    <color name="statusBarColor">#090909</color>
+    <color name="groupItemSelectedColor">#33C51162</color>
+    <color name="groupItemBackgroundColor">?android:colorBackground</color>
+    <color name="counterValueColor">#000000</color>
+    <color name="colorIconNoGroupBackground">#CA3F7D</color>
+    <color name="colorIconNoGroupForeground">#C86799</color>
+    <color name="colorIconNoCountersForeground">#e9e0e0</color>
+    <color name="colorIconNoCountersBackground">#f0eaeb</color>
+    <color name="colorIconNoCountersPlus">#C86799</color>
+
+
+
+    <color name="orange">#FF1744</color>
+    <color name="red">#F50057</color>
+    <color name="violet">#651FFF</color>
+    <color type="color" name="blue">#00B0FF</color>
+    <color name="turquoise">#00E5FF</color>
+    <color name="green">#00E676</color>
+    <color name="yellow">#FFEA00</color>
+
+</resources>

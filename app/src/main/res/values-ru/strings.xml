@@ -1,0 +1,108 @@
+<resources>
+        <string name="app_name">Счетчик</string>
+        <string name="navigation_drawer_close">Navigation drawer close</string>
+        <string name="navigation_drawer_open">Navigation drawer open</string>
+
+        <string-array name="history_sort_items">
+            <item>Сортировка по дате</item>
+            <item>Сортировка по значению</item>
+        </string-array>
+
+    <!-- Counters fragment -->
+    <string name="navigationViewToolbar">Групы</string>
+    <string name="countersFragmentToolbarTitle">Все счетчики</string>
+    <string name="rate">Оценить</string>
+    <string name="resetSelectionMenu">Сбросить выбранные</string>
+    <string name="deleteSelectionMenu">Удалить выбранные</string>
+    <string name="selectAllSelectionMenu">Выбрать все</string>
+    <string name="editSelectionMenu">Редактировать</string>
+    <string name="drawerSettings">Настройки</string>
+    <string name="click_on_the_button_below_to_create">Нажмите кнопку ниже, чтобы создать</string>
+    <string name="there_are_no_active_counters">Счетчиков нету!</string>
+    <string name="there_are_no_groups_yet">Груп нету</string>
+    <string name="there_no_history_yet">Истории нету</string>
+
+    <!-- Counter fragment -->
+    <string name="allCountersItem">Все cчетчики</string>
+    <string name="saveToHistory">Сохранить в историю</string>
+    <string name="saveToHistoryToast">сохранено в историю</string>
+    <string name="max">Max</string>
+    <string name="min">Min</string>
+    <string name="counterFragmentEditMenu">Редактировать</string>
+    <string name="counterFragmentDeleteMenu">Удалить</string>
+
+    <!-- History fragment -->
+    <string name="historyFragmentToolbarTitle">История</string>
+    <string name="counterHistoryMenuClean">Очистить</string>
+
+    <!-- Add counter dialog -->
+    <string name="addCounterDialogTitle">Добавить счетчик</string>
+    <string name="addCounterDialogCounterTitle">Имя счетчика</string>
+    <string name="addCounterDialogCounterGroup">Група</string>
+    <string name="addCounterDialogCounterPositiveButton">Создать</string>
+    <string name="addCounterDialogCounterNegativeButton">Отмена</string>
+
+    <!-- Create edit counter fragment -->
+    <string name="createEditCounterCounterTitleHint">Имя cчетчика</string>
+    <string name="createEditCounterCounterTitleText">Новый счетчик</string>
+    <string name="createEditCounterCounterValueHint">Значение</string>
+    <string name="createEditCounterCounterValueText">0</string>
+    <string name="createEditCounterCounterStepHint">Шаг</string>
+    <string name="createEditCounterCounterStepText">1</string>
+    <string name="createEditCounterCounterMaxValueHint">Максимальное значение</string>
+    <string name="createEditCounterCounterMinValueHint">Минимальное значение</string>
+    <string name="createEditCounterEditToolbarTitle">Редактировать</string>
+
+
+    <!-- Delete counter dialog -->
+    <string name="deleteCounterDialogTitle">Удалить счетчик?</string>
+    <string name="deleteCounterDialogText">Это действие нельзя будет отменить</string>
+    <string name="deleteCounterDialogPositiveButton">Да</string>
+    <string name="deleteCounterDialogNegativeButton">Отмена</string>
+    <string name="deleteCountersDeleteDialog">Удалить счетчики?</string>
+    <string name="deleteCounterDeleteDialog">Удалить счетчик?</string>
+
+
+    <string name="helloBlankFragment">Hello blank fragment</string>
+    <string name="counterReset">Счетчик сброшен</string>
+    <string name="counterResetUndo">ОТМЕНИТЬ</string>
+    <string name="thisIsMaximum">Это максимум</string>
+    <string name="thisIsMinimum">Это минимум</string>
+    <string name="selectionModTitle">Выбрано: %1$s</string>
+
+
+
+    <!-- Preference Display -->
+    <string name="display_header">Дисплей</string>
+    <string name="nightMod">Темная тема</string>
+    <string name="left_hand_mod">Левосторонний режим</string>
+    <string name="keep_screen_on">Не выключать экран</string>
+    <string name="SettingToolbar">Настройки</string>
+
+    <!-- Preference Feedback -->
+    <string name="feedBack_header">Обратная связь</string>
+    <string name="clickSound">Звук при клике</string>
+    <string name="clickVibration">Вибрация при клике</string>
+    <string name="clickSpeak">Озвучивать число</string>
+
+    <!-- Preference Control -->
+    <string name="control_header">Управление</string>
+    <string name="use_volume_buttons">Использовать клавиши громкости</string>
+    <string name="fast_count_speed">Скорость быстрого счета</string>
+    <string name="summary_fast_count_speed">Активируеться долгим нажатием на кнопки +/-</string>
+
+    <!-- About counter fragment -->
+    <string name="aboutCounter">О счетчике</string>
+    <string name="counterName">Имя счетчика</string>
+    <string name="valueBeforeReset">Значение до сброса</string>
+    <string name="value">Значение</string>
+    <string name="step">Шаг</string>
+    <string name="group">Група</string>
+    <string name="minValue">Минимум</string>
+    <string name="maxValue">Максимум</string>
+    <string name="lastReset">Последний сброс</string>
+    <string name="no">Нет</string>
+    <string name="created">Создан: %1$s</string>
+
+
+</resources>

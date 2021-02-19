@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/historyFragmentToolbarTitle"
+        android:id="@+id/counterHistory"
+        />
+
+    <item android:title="@string/counterFragmentEditMenu"
+        android:id="@+id/counterEdit"
+        />
+
+    <item android:title="@string/counterFragmentDeleteMenu"
+        android:id="@+id/counterDelete"
+        />
+
+    <item android:title="@string/aboutCounter"
+        android:id="@+id/aboutCounter"
+        />
+
+
+</menu>

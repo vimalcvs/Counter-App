@@ -1,0 +1,54 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory app:title="@string/display_header">
+        <SwitchPreferenceCompat
+            app:key="nightMod"
+            app:title="@string/nightMod"
+            app:defaultValue="false"/>
+        <SwitchPreferenceCompat
+            app:key="keepScreenOn"
+            app:title="@string/keep_screen_on"
+            app:defaultValue="true"/>
+        <SwitchPreferenceCompat
+            app:key="leftHandMod"
+            app:title="@string/left_hand_mod" />
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/feedBack_header">
+        <SwitchPreferenceCompat
+            app:key="clickSound"
+            app:title="@string/clickSound"
+            app:defaultValue="true"/>
+
+        <SwitchPreferenceCompat
+            app:key="clickVibration"
+            app:title="@string/clickVibration"
+            app:defaultValue="false"/>
+
+        <SwitchPreferenceCompat
+            app:key="clickSpeak"
+            app:title="@string/clickSpeak"
+            app:defaultValue="false"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/control_header">
+
+        <SwitchPreferenceCompat
+            app:key="useVolumeButtons"
+            app:singleLineTitle="false"
+            app:title="@string/use_volume_buttons"
+            app:defaultValue="true"/>
+
+        <SeekBarPreference
+            app:singleLineTitle="false"
+            app:key="fastCountSpeed"
+            app:summary="@string/summary_fast_count_speed"
+            app:defaultValue="200"
+            app:min="30"
+            android:max="300"
+            app:title="@string/fast_count_speed"
+
+            />
+    </PreferenceCategory>
+
+</PreferenceScreen>

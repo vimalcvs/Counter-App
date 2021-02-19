@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.vimalcvs.counter.Fragments.CreateEditCounterFragment">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_counterCreateActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:colorBackground"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:title="@string/createEditCounterCounterTitleText"
+        app:titleTextColor="?colorAccent" />
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/outlinedTextField"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        app:errorEnabled="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar_counterCreateActivity">
+
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/counterTitle_addCounter_detailed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/createEditCounterCounterTitleHint"
+            android:imeOptions="actionDone"
+            android:inputType="text"
+            android:maxLines="1"
+            android:text="@string/createEditCounterCounterTitleText" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/outlinedTextField1"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="8dp"
+        app:errorEnabled="true"
+        app:layout_constraintEnd_toStartOf="@+id/outlinedTextField2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/outlinedTextField">
+
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/counterValue_addCounter_detailed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/createEditCounterCounterValueHint"
+            android:imeOptions="actionDone"
+            android:inputType="numberSigned"
+            android:maxLength="18"
+            android:text="@string/createEditCounterCounterValueText"
+
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/outlinedTextField2"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="16dp"
+        app:errorEnabled="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/outlinedTextField1"
+        app:layout_constraintTop_toBottomOf="@+id/outlinedTextField">
+
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/counterStep_addCounter_detailed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/createEditCounterCounterStepHint"
+            android:imeOptions="actionDone"
+            android:inputType="numberSigned"
+            android:maxLength="18"
+            android:text="@string/createEditCounterCounterStepText"
+
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/outlinedTextField3"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/outlinedTextField4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/outlinedTextField4"
+        app:layout_constraintTop_toBottomOf="@+id/outlinedTextField2">
+
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/counterMaxValue_addCounter_detailed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/createEditCounterCounterMaxValueHint"
+            android:imeOptions="actionDone"
+            android:inputType="numberSigned"
+            android:maxLength="18"
+
+
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/outlinedTextField4"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toStartOf="@+id/outlinedTextField3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/outlinedTextField2">
+
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/counterMinValue_addCounter_detailed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/createEditCounterCounterMinValueHint"
+            android:imeOptions="actionDone"
+            android:inputType="numberSigned"
+            android:maxLength="18"
+
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/counterGroups_addCounter_detailed"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:hint="@string/addCounterDialogCounterGroup"
+        app:errorEnabled="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/outlinedTextField4">
+
+        <AutoCompleteTextView
+            android:id="@+id/filled_exposed_dropdown"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:imeOptions="actionDone"
+            android:inputType="text" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

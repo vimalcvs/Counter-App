@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#BA3D67</color>
+    <color name="colorPrimaryDark">#BA3D67</color>
+    <color name="colorAccent">#BA3D67</color>
+    <color name="itemDraggingColor">#FFD1D1</color>
+    <color name="counterItemButtonsColor">#121212</color>
+    <color name="dividerLineColor">#4DFFFFFF</color>
+    <color name="statusBarColor">#F8F5F5</color>
+    <color name="groupItemSelectedColor">#33C51162</color>
+    <color name="groupItemBackgroundColor">#303030</color>
+    <color name="counterValueColor">#DEFFFFFF</color>
+    <color name="colorIconNoGroupBackground">#C61766</color>
+    <color name="colorIconNoGroupForeground">#c44d8b</color>
+    <color name="colorIconNoCountersForeground">#2C2B2B</color>
+    <color name="colorIconNoCountersBackground">#303030</color>
+    <color name="colorIconNoCountersPlus">#BA3D67</color>
+    <color name="colorIconNoHistory">#BA3D67</color>
+
+
+
+
+    <color name="orange">#FF1744</color>
+    <color name="red">#F50057</color>
+    <color name="violet">#651FFF</color>
+    <color type="color" name="blue">#00B0FF</color>
+    <color name="turquoise">#00E5FF</color>
+    <color name="green">#00E676</color>
+    <color name="yellow">#FFEA00</color>
+
+</resources>

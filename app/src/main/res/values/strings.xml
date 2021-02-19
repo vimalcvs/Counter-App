@@ -1,0 +1,109 @@
+<resources>
+    <string name="app_name">Сounter</string>
+
+    <string name="navigation_drawer_close">Navigation drawer close</string>
+    <string name="navigation_drawer_open">Navigation drawer open</string>
+
+    <string-array name="history_sort_items">
+        <item>Sort by date</item>
+        <item>Sort by value</item>
+    </string-array>
+
+    <!-- Counters fragment -->
+    <string name="navigationViewToolbar">Groups</string>
+    <string name="countersFragmentToolbarTitle">All counters</string>
+    <string name="rate">Rate</string>
+    <string name="resetSelectionMenu">Reset selected</string>
+    <string name="deleteSelectionMenu">Delete selected</string>
+    <string name="selectAllSelectionMenu">Select all</string>
+    <string name="editSelectionMenu">Edit</string>
+    <string name="drawerSettings">Settings</string>
+    <string name="there_are_no_active_counters">There are no active counters</string>
+    <string name="click_on_the_button_below_to_create">click on the button below to create</string>
+    <string name="there_are_no_groups_yet">There are no groups</string>
+    <string name="there_no_history_yet">There no history</string>
+    <string name="selectionModTitle">Selected: %1$s</string>
+
+
+    <!-- Counter fragment -->
+    <string name="allCountersItem">All counters</string>
+    <string name="saveToHistory">Save to history</string>
+    <string name="saveToHistoryToast"> saved to counter history</string>
+    <string name="max">Max</string>
+    <string name="min">Min</string>
+    <string name="counterFragmentEditMenu">Edit</string>
+    <string name="counterFragmentDeleteMenu">Delete</string>
+    <string name="createEditCounterEditToolbarTitle">Edit</string>
+
+    <!-- History fragment -->
+    <string name="historyFragmentToolbarTitle">History</string>
+    <string name="counterHistoryMenuClean">Clean</string>
+
+    <!-- Add counter dialog -->
+    <string name="addCounterDialogTitle">Add counter</string>
+    <string name="addCounterDialogCounterTitle">Counter title</string>
+    <string name="addCounterDialogCounterGroup">Group</string>
+    <string name="addCounterDialogCounterPositiveButton">Create</string>
+    <string name="addCounterDialogCounterNegativeButton">Cancel</string>
+
+    <!-- Create edit counter fragment -->
+    <string name="createEditCounterCounterTitleHint">Counter tittle</string>
+    <string name="createEditCounterCounterTitleText">New сounter</string>
+    <string name="createEditCounterCounterValueHint">Value</string>
+    <string name="createEditCounterCounterValueText">0</string>
+    <string name="createEditCounterCounterStepHint">Step</string>
+    <string name="createEditCounterCounterStepText">1</string>
+    <string name="createEditCounterCounterMaxValueHint">Max value</string>
+    <string name="createEditCounterCounterMinValueHint">Min value</string>
+
+    <!-- Delete counter dialog -->
+    <string name="deleteCounterDialogTitle">Delete counter?</string>
+    <string name="deleteCounterDialogText">This action cannot be undone</string>
+    <string name="deleteCounterDialogPositiveButton">Yes</string>
+    <string name="deleteCounterDialogNegativeButton">Cancel</string>
+    <string name="deleteCountersDeleteDialog">Delete counters?</string>
+    <string name="deleteCounterDeleteDialog">Delete counter?</string>
+
+
+    <string name="helloBlankFragment">Hello blank fragment</string>
+
+    <string name="counterReset">Counter was reset</string>
+    <string name="counterResetUndo">UNDO</string>
+    <string name="thisIsMaximum">This is maximum</string>
+    <string name="thisIsMinimum">This is minimum</string>
+
+
+    <!-- Preference Display -->
+    <string name="display_header">Display</string>
+    <string name="nightMod">Night mode</string>
+    <string name="left_hand_mod">Left hand mod</string>
+    <string name="keep_screen_on">Keep screen on</string>
+    <string name="SettingToolbar">Settings</string>
+
+    <!-- Preference Feedback -->
+    <string name="feedBack_header">Feedback</string>
+    <string name="clickSound">Click sound</string>
+    <string name="clickVibration">Vibration</string>
+    <string name="clickSpeak">Speech output</string>
+
+    <!-- Preference Control -->
+    <string name="control_header">Control</string>
+    <string name="use_volume_buttons">Use volume buttons</string>
+    <string name="fast_count_speed">Speed of fast counting</string>
+    <string name="summary_fast_count_speed">Activates by long press on +/- buttons</string>
+
+    <!-- About counter fragment -->
+    <string name="aboutCounter">About counter</string>
+    <string name="counterName">Counter name</string>
+    <string name="valueBeforeReset">Value before reset</string>
+    <string name="value">Value</string>
+    <string name="step">Step</string>
+    <string name="group">Group</string>
+    <string name="minValue">Min</string>
+    <string name="maxValue">Max</string>
+    <string name="lastReset">Last reset</string>
+    <string name="no">No</string>
+    <string name="created">Created: %1$s</string>
+
+
+</resources>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/countersFragment">
+    <fragment
+        android:id="@+id/countersFragment"
+        android:name="com.vimalcvs.counter.Fragments.CountersFragment"
+        android:label="@string/allCountersItem" >
+        <action
+            android:id="@+id/action_countersFragment_to_counterFragment"
+            app:destination="@id/counterFragment" />
+        <action
+            android:id="@+id/action_countersFragment_to_createEditCounterFragment2"
+            app:destination="@id/createEditCounterFragment" />
+        <action
+            android:id="@+id/action_countersFragment_to_createEditCounterFragment"
+            app:destination="@id/createEditCounterFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/counterFragment"
+        android:name="com.vimalcvs.counter.Fragments.CounterFragment"
+        tools:layout="@layout/fragment_counter" >
+        <argument
+            android:name="counterId"
+            app:argType="long"
+            android:defaultValue="-1L" />
+        <action
+            android:id="@+id/action_counterFragment_to_counterHistoryFragment"
+            app:destination="@id/counterHistoryFragment" />
+        <action
+            android:id="@+id/action_counterFragment_to_createEditCounterFragment"
+            app:destination="@id/createEditCounterFragment" />
+        <action
+            android:id="@+id/action_counterFragment_to_aboutCounterFragment"
+            app:destination="@id/aboutCounterFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/counterHistoryFragment"
+        android:name="com.vimalcvs.counter.Fragments.CounterHistoryFragment"
+        tools:layout="@layout/fragment_counter_history" >
+        <argument
+            android:name="counterId"
+            app:argType="long"
+            android:defaultValue="-1L" />
+    </fragment>
+    <fragment
+        android:id="@+id/createEditCounterFragment"
+        android:name="com.vimalcvs.counter.Fragments.CreateEditCounterFragment"
+        tools:layout="@layout/fragment_create_edit_counter" >
+        <argument
+            android:name="counterId"
+            app:argType="long"
+            android:defaultValue="-1L" />
+    </fragment>
+    <fragment
+        android:id="@+id/aboutCounterFragment"
+        android:name="com.vimalcvs.counter.Fragments.AboutCounterFragment"
+        tools:layout="@layout/fragment_about_counter" >
+        <argument
+            android:name="counterId"
+            app:argType="long"
+            android:defaultValue="-1L" />
+    </fragment>
+</navigation>
